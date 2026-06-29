@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN python scripts/index.py
+RUN python -m scripts.index
 
 VOLUME ["/app/chroma_db"]
 
