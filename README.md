@@ -14,6 +14,10 @@ Una API de Generación Aumentada por Recuperación (RAG) que responde preguntas 
 2. Los 2 fragmentos más similares se recuperan de ChromaDB
 3. Claude Haiku (`claude-haiku-4-5`) responde usando únicamente esos fragmentos como contexto
 
+## Arquitectura 
+
+![alt text](arquitecture-diagram.png)
+
 ## Stack tecnológico
 
 | Componente    | Tecnología                  |
@@ -86,6 +90,7 @@ Response:
 - Responde en el mismo idioma que la pregunta
 - Las respuestas se limitan a una oración y están escritas en tercera persona
 - Solo se utiliza información presente en el documento; no se usa conocimiento externo
+
 
 ## Estructura del proyecto
 

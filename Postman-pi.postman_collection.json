@@ -1,0 +1,96 @@
+{
+  "info": {
+    "_postman_id": "6c7757e3-11a6-4b07-96ec-5e062a7589af",
+    "name": "Postman-pi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "21242357"
+  },
+  "item": [
+    {
+      "name": "Zara",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"user_name\": \"Facu\",\r\n    \"question\": \"Quien es Zara?\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{local_url}}/ask",
+          "host": [
+            "{{local_url}}"
+          ],
+          "path": [
+            "ask"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": null,
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Emma",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"user_name\": \"Facu\",\r\n    \"question\": \"What did Emma decide to do?\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{local_url}}/ask",
+          "host": [
+            "{{local_url}}"
+          ],
+          "path": [
+            "ask"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "magical_flower",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"user_name\": \"Facu\",\r\n    \"question\": \"What is the name of the magical flower?\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{local_url}}/ask",
+          "host": [
+            "{{local_url}}"
+          ],
+          "path": [
+            "ask"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
