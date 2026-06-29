@@ -81,7 +81,7 @@ Request:
 Response:
 ```json
 {
-  "answer": "The story is about ... 📖"
+  "answer": "Zara es una interpretida aventurera ...📖"
 }
 ```
 
