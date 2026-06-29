@@ -1,0 +1,5 @@
+VOYAGE_MODEL = "voyage-3-large"
+CHROMA_PATH = "chroma_db"
+COLLECTION_NAME = "documento"
+DOC_PATH = "data/documento.docx"
+MODEL = "claude-haiku-4-5"

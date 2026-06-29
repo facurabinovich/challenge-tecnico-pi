@@ -1,0 +1,6 @@
+anthropic
+voyageai
+chromadb
+python-docx
+flask
+python-dotenv
