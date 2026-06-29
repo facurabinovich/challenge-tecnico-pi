@@ -73,15 +73,15 @@ El flag `-v` monta `chroma_db/` desde el host para que los datos indexados persi
 Request:
 ```json
 {
-  "question": "What is the story about?",
-  "user_name": "Alice"
+  "question": "Quien es Zara?",
+  "user_name": "Facu"
 }
 ```
 
 Response:
 ```json
 {
-  "answer": "The story is about ... 📖"
+  "answer": "Zara es una interpretida aventurera ...📖"
 }
 ```
 
