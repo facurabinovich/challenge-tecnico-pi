@@ -39,4 +39,4 @@ def run_pipeline(query: str, usuario: str) -> str:
         temperature=0
     )
 
-    return respuesta.content[0].text
+    return respuesta.content[0].text 

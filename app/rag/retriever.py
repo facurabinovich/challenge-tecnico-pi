@@ -40,4 +40,16 @@ def buscar_chunks(query: str, n_results: int = 2) -> list[str]:
         query_embeddings=[query_embedding],
         n_results=n_results,
     )
-    return results["documents"][0]
+    return results["documents"][0]  
+# [0] porque query() devuelve una lista de listas (una por cada query enviada); como siempre enviamos
+#  una sola query, tomamos el primer elemento.
+# Si haces collection.query con n_results=2, results["documents"] luce así:
+# 
+# [                                          ← lista exterior (una entrada por query enviada)
+#     ["Zara es una exploradora...",         ← lista interior: los 2 chunks más relevantes
+#      "En la galaxia de Zenthoria..."]
+# ]
+#
+# results["documents"][0]  →  ["Zara es una exploradora...", "En la galaxia de Zenthoria..."]
+# results["documents"][0][0]  →  "Zara es una exploradora..."
+# results["documents"][0][1]  →  "En la galaxia de Zenthoria..."
