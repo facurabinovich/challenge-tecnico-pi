@@ -1,0 +1,6 @@
+.env
+.git
+.venv-win
+chroma_db/
+__pycache__/
+*.pyc
